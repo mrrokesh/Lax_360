@@ -1,0 +1,125 @@
+{
+    "company": {
+        "name": "LAX 360",
+        "tagline": "Innovative. Functional. Aesthetic. Future-Ready.",
+        "description": "LAX 360 is a full-service product design and development company offering Graphic Design & Branding, App Development, Software Development, CAD Design & Product Modeling.",
+        "mission": "Provide innovative, functional, aesthetic, future-ready solutions.",
+        "vision": "To be a global leader in creative technology.",
+        "contact": {
+            "phone": "866 763 0258",
+            "location": "Salem",
+            "email": "contact@lax360.com"
+        }
+    },
+    "services": [
+        {
+            "id": "cad-design",
+            "title": "CAD Design & Product Modeling",
+            "icon": "Box",
+            "description": "Precision modeling and prototyping for manufacturing.",
+            "items": [
+                "2D/3D CAD",
+                "Concept Development",
+                "Mechanical Design",
+                "Simulation & Rendering",
+                "Rapid Prototyping Support"
+            ]
+        },
+        {
+            "id": "mep-designing",
+            "title": "MEP Designing",
+            "icon": "Ruler",
+            "description": "Comprehensive Mechanical, Electrical, and Plumbing design solutions.",
+            "items": [
+                "HVAC Systems",
+                "Electrical Layouts",
+                "Plumbing Design",
+                "Fire Fighting Systems",
+                "BIM Modeling"
+            ]
+        },
+        {
+            "id": "iot-projects",
+            "title": "Raspberry Pi & Arduino Projects",
+            "icon": "Cpu",
+            "description": "Innovative IoT and embedded system solutions.",
+            "items": [
+                "Home Automation",
+                "Robotics",
+                "Sensor Integration",
+                "PCB Design",
+                "Custom Prototypes"
+            ]
+        },
+        {
+            "id": "graphic-design",
+            "title": "Graphic Design & Branding",
+            "icon": "Palette",
+            "description": "We craft visual identities that resonate with your audience.",
+            "items": [
+                "Logo & Brand Identity",
+                "Marketing Collateral",
+                "Social Media Design",
+                "Packaging",
+                "UI/UX Design"
+            ]
+        },
+        {
+            "id": "software-digital",
+            "title": "Software & Digital Solutions",
+            "icon": "Code",
+            "description": "End-to-end digital solutions for web, mobile, and marketing.",
+            "items": [
+                "Web & Mobile Apps",
+                "Custom Software",
+                "Digital Marketing",
+                "Cloud Services",
+                "System Integration"
+            ]
+        },
+        {
+            "id": "digital-marketing",
+            "title": "Digital Marketing",
+            "icon": "TrendingUp",
+            "description": "Data-driven marketing strategies that grow visibility, traffic, and conversions.",
+            "items": [
+                "SEO & Search Optimization",
+                "Social Media Management",
+                "Paid Ads & Performance Marketing",
+                "Brand Strategy & Content Creation",
+                "Analytics & Conversion Tracking"
+            ]
+        }
+    ],
+    "process": [
+        {
+            "step": 1,
+            "title": "Research & Strategy",
+            "description": "We analyze your needs and market trends to build a solid foundation."
+        },
+        {
+            "step": 2,
+            "title": "Design & Development",
+            "description": "Our creative and technical teams bring ideas to life."
+        },
+        {
+            "step": 3,
+            "title": "Testing & Refinement",
+            "description": "Rigorous testing ensures quality and performance."
+        },
+        {
+            "step": 4,
+            "title": "Launch & Support",
+            "description": "We help you launch and provide ongoing support."
+        }
+    ],
+    "industries": [
+        "Manufacturing",
+        "IT",
+        "Education",
+        "Healthcare",
+        "Ecommerce",
+        "Real Estate",
+        "Automotive"
+    ]
+}
