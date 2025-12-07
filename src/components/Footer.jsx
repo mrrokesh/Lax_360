@@ -25,12 +25,24 @@ const Footer = () => {
                             {company.mission}
                         </p>
                         <div className="flex space-x-4">
-                            {[Facebook, Twitter, Instagram, Linkedin].map((Icon, i) => (
-                                <a key={i} href="#" className="text-gray-400 hover:text-white transition-colors">
-                                    <Icon size={20} />
-                                </a>
-                            ))}
+                        {[
+                            { Icon: Facebook, link: "https://www.facebook.com/share/p/1BauKWFCSr/" },
+                            { Icon: Twitter, link: "#" },
+                            { Icon: Instagram, link: "https://www.instagram.com/lax360pvtltd?igsh=Zmsxa2oyamN5MWM=" },
+                            { Icon: Linkedin, link: "#" }
+                        ].map(({ Icon, link }, i) => (
+                            <a
+                            key={i}
+                            href={link}
+                            className="text-gray-400 hover:text-white transition-colors"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            >
+                            <Icon size={20} />
+                            </a>
+                        ))}
                         </div>
+
                     </div>
 
                     {/* Quick Links */}
